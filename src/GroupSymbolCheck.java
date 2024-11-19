@@ -41,7 +41,7 @@ public class GroupSymbolCheck {
             File myObj = new File("TestCode.java");
             Scanner myReader = new Scanner(myObj);
             String fileData = myReader.nextLine();
-            isBalanced(fileData);
+            System.out.println(isBalanced(fileData));
 
 
 
